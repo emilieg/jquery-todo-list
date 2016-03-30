@@ -1,0 +1,11 @@
+ul li {
+    list-style: none;
+    background: gray;
+    margin: 2px;
+    border-raius: 5px;
+    padding: 5px;
+}
+
+.X {
+  background-color: green;
+}
