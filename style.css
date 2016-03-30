@@ -1,11 +1,43 @@
+h2 {
+  text-align: center;
+
+}
+
+#box{
+  position: relative;
+  width: 300px;
+
+}
+
+.list {
+  width: 300px;
+  height: 600px;
+  margin: 0 auto; 
+  background: #fff;
+  border: 1px solid;
+  border-color: #dfdcdc #d9d6d6;
+}
+
+input {
+/*  float: right;*/
+  margin-top: 10px;
+  margin-left: 50px 
+ 
+}
+input.submit {
+  margin-left: 5px;
+}
+
 ul li {
     list-style: none;
-    background: gray;
-    margin: 2px;
-    border-raius: 5px;
-    padding: 5px;
+    float: left;
+   /* text-align: left;*/
+    margin: 1em;
+    text-align: center;
 }
 
 .X {
-  background-color: green;
+float: left; 
+margin-right: 5px;
+
 }
