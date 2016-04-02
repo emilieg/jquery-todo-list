@@ -2,22 +2,32 @@
 <html>
 <head>
   <title>To Do List</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.theme.min.css">
+ <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id=box>
+  <div id="box">
+  <div id="leftPage">
+  </div>
+   <div id="rightPage">
     <h2> Things To Do: </h2>
     <div class="list">
     <form id="myForm">
-     <input type="text">
+     <input type="text" id="todo-input">
      <input type="submit" value="submit">
    </form>
    <ul id="toDo">
+   
    </ul>
    </div>
  </div>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js">
- </script>
+ </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"> </script>
+ <!-- loading jQuery UI after lib -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js">   </script>
+
+
  <script src="script.js"> </script>
 </body>
 </html>
